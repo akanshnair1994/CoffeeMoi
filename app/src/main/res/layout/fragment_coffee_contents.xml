@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CoffeeContents.CoffeeContentsFragment"
+    android:padding="24dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true">
+
+        <RelativeLayout
+            android:id="@+id/cremeLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/iconCreme"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_alignParentStart="true"
+                android:tint="@android:color/background_light"
+                android:src="@drawable/ic_creme" />
+
+            <TextView
+                android:id="@+id/coffeeContentsCreme"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toEndOf="@+id/iconCreme"
+                android:layout_marginStart="8dp"
+                android:text="@string/creme_string"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textColor="@android:color/primary_text_dark" />
+
+            <TextView
+                android:id="@+id/seekbarProgressCreme"
+                android:textColor="@android:color/primary_text_dark"
+                android:fontFamily="@font/exo2_regular"
+                android:textAppearance="@style/TextAppearance.AppCompat.Menu"
+                android:text="0%"
+                android:textAlignment="textEnd"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_toEndOf="@+id/coffeeContentsCreme" />
+
+            <SeekBar
+                android:id="@+id/seekbarCreme"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:progress="0"
+                android:layout_below="@+id/coffeeContentsCreme"
+                style="@style/CustomSeekbar" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/milkLayout"
+            android:layout_below="@+id/cremeLayout"
+            android:layout_marginTop="24dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/iconMilk"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_alignParentStart="true"
+                android:tint="@android:color/background_light"
+                android:src="@drawable/ic_milk" />
+
+            <TextView
+                android:id="@+id/coffeeContentsMilk"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toEndOf="@+id/iconMilk"
+                android:layout_marginStart="8dp"
+                android:text="@string/milk_string"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textColor="@android:color/primary_text_dark" />
+
+            <TextView
+                android:id="@+id/seekbarProgressMilk"
+                android:textColor="@android:color/primary_text_dark"
+                android:fontFamily="@font/exo2_regular"
+                android:textAppearance="@style/TextAppearance.AppCompat.Menu"
+                android:text="0%"
+                android:textAlignment="textEnd"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_toEndOf="@+id/coffeeContentsMilk" />
+
+            <SeekBar
+                android:id="@+id/seekbarMilk"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:progress="0"
+                android:layout_below="@+id/coffeeContentsMilk"
+                style="@style/CustomSeekbar" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/sugarLayout"
+            android:layout_below="@+id/milkLayout"
+            android:layout_marginTop="24dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/iconSugar"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_alignParentStart="true"
+                android:tint="@android:color/background_light"
+                android:src="@drawable/ic_sugar" />
+
+            <TextView
+                android:id="@+id/coffeeContentsSugar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toEndOf="@+id/iconSugar"
+                android:layout_marginStart="8dp"
+                android:text="@string/sugar_string"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textColor="@android:color/primary_text_dark" />
+
+            <TextView
+                android:id="@+id/seekbarProgressSugar"
+                android:textColor="@android:color/primary_text_dark"
+                android:fontFamily="@font/exo2_regular"
+                android:textAppearance="@style/TextAppearance.AppCompat.Menu"
+                android:text="0%"
+                android:textAlignment="textEnd"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_toEndOf="@+id/coffeeContentsSugar" />
+
+            <SeekBar
+                android:id="@+id/seekbarSugar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:progress="0"
+                android:layout_below="@+id/coffeeContentsSugar"
+                style="@style/CustomSeekbar" />
+
+        </RelativeLayout>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/confirm"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="36dp"
+            android:layout_marginStart="36dp"
+            android:layout_below="@+id/sugarLayout"
+            android:layout_marginTop="40dp"
+            android:text="@string/confirm_contents_string"
+            android:textColor="@color/colorPrimary"
+            android:padding="16dp"
+            android:background="@drawable/drawable_button_confirm_contents" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

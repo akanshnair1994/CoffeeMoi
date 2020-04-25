@@ -1,0 +1,118 @@
+<resources>
+    <string name="app_name">CoffeeMoi</string>
+    <string name="start_title_string">Start your \n Day Fresh</string>
+    <string name="login_button_string">Log in with your account</string>
+    <string name="register_string">Don\'t have an account?</string>
+    <string name="sign_up_string">Sign Up</string>
+    <string name="login_title_string">Log In</string>
+    <string name="username_string">Username</string>
+    <string name="password_string">Password</string>
+    <string name="forgot_password_string">Forgot your password?</string>
+    <string name="login_button_2_string">Log in</string>
+    <string name="register_title_string">Register</string>
+    <string name="full_name_string">Full Name</string>
+    <string name="email_address_string">Email Address</string>
+    <string name="contact_no_string">Contact Number</string>
+    <string name="confirm_password_string">Confirm Password</string>
+    <string name="register_button_string">Register</string>
+    <string name="register_success_message">User was registered successfully</string>
+    <string name="logo_text_string">Coffee Moi</string>
+    <string name="home_title_string">Home</string>
+    <string name="view_profile_string">View Profile</string>
+    <string name="create_order_string">Create Order</string>
+    <string name="edit_order_string">Change an Order</string>
+    <string name="remove_order_string">Remove an Order</string>
+    <string name="give_rating_string">Give a Rating</string>
+    <string name="about_us_string">About Us</string>
+    <string name="home_title_screen_string">Select an option from below</string>
+    <string name="progress_value">%1$s%%</string>
+    <string name="price_value">$%1$s</string>
+    <string name="next_string">Next</string>
+    <string name="back_string">Back</string>
+    <string-array name="descData">
+        <item>Coffee Type</item>
+        <item>Size</item>
+        <item>Contents</item>
+        <item>Payments</item>
+    </string-array>
+    <string-array name="coffeeTypes">
+        <item>Expresso</item>
+        <item>Cappuccino</item>
+        <item>Double Double</item>
+        <item>Hot Chocolate</item>
+        <item>French Vanilla</item>
+    </string-array>
+    <string-array name="coffeeSizes">
+        <item>Small</item>
+        <item>Medium</item>
+        <item>Large</item>
+        <item>Extra Large</item>
+    </string-array>
+    <string-array name="coffeeContents">
+        <item>Creme</item>
+        <item>Milk</item>
+        <item>Sugar</item>
+    </string-array>
+    <string-array name="coffee_type_prices">
+        <item>0.9</item>
+        <item>1.2</item>
+        <item>1.5</item>
+        <item>1.6</item>
+        <item>1.8</item>
+    </string-array>
+    <string-array name="coffee_size_prices">
+        <item>0.5</item>
+        <item>1.0</item>
+        <item>1.5</item>
+        <item>2.0</item>
+    </string-array>
+    <string-array name="coffee_contents_prices">
+        <item>0.2</item>
+        <item>1.6</item>
+        <item>1.1</item>
+    </string-array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="coffee_type_string">Coffee Type</string>
+    <string name="done_string">Done</string>
+    <string name="coffee_size_string">Coffee Size</string>
+    <string name="coffee_contents_string">Coffee Contents</string>
+    <string name="total_cost">Total Cost</string>
+    <string name="creme_string">Creme</string>
+    <string name="milk_string">Milk</string>
+    <string name="sugar_string">Sugar</string>
+    <string name="total_cost_string">Total Cost</string>
+    <string name="payment_options_string">Payment Options</string>
+    <string name="pay_with_card_string">Pay with Card</string>
+    <string name="pay_with_credit_string">Pay With Credit Card</string>
+    <string name="confirm_contents_string">Confirm Contents</string>
+    <string name="confirm_contents_error_string">Please confirm the contents first</string>
+    <string name="coffee_type_selection_error">Coffee Type not selected</string>
+    <string name="coffee_size_selection_error">Coffee Size not selected</string>
+    <string name="payment_method_error_string">Please make the payment..</string>
+    <string name="new_total_price_string">New price</string>
+    <string name="changes_made_string">The order has been modified..</string>
+    <string name="order_id_string">Order ID</string>
+    <string name="coffee_content_measures_string">Coffee contents and measures</string>
+    <string name="creme_measure_string">Creme measure</string>
+    <string name="milk_measure_string">Milk measure</string>
+    <string name="sugar_measure_string">Sugar measure</string>
+    <string name="order_date_string">Date</string>
+    <string name="delete_order_string">Delete the order</string>
+    <string name="update_order_string">Update the order</string>
+    <string name="hours_value">%1$s h ago</string>
+    <string name="minutes_value">%1$s m ago</string>
+    <string name="days_value">%1$s d ago</string>
+    <string name="delete_order_dialog_message_string">Are you sure you want to delete the order?</string>
+    <string name="profile_screen_title_string">Profile</string>
+    <string name="update_profile_string">Update profile</string>
+    <string name="register_failure_message">There was some problem in registering the user. Please try again later...</string>
+    <string name="login_error_message_string">There was some problem in logging in. Please try again later...</string>
+    <string name="display_issue_error_message">There was some problem in getting the current user.</string>
+    <string name="changes_made_error_string">There was some problem editing the order.</string>
+    <string name="user_registered_success_message_string">User was successfully registered.</string>
+    <string name="user_registered_fail_message_string">User was not registered.</string>
+    <string name="phone_number_string">Phone Number</string>
+    <string name="order_created_success_string">Order was created successfully</string>
+    <string name="order_created_fail_string">Order creation failed</string>
+</resources>
